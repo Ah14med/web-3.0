@@ -1,0 +1,90 @@
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/**************NAV BAR********************/
+.container nav ul li a {
+  color: hsl(236, 13%, 42%);
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.container nav ul li a:hover {
+  color: hsl(35, 77%, 62%);
+}
+.navbar-toggler{
+  border: 0px;
+}
+/*********section 1*******/
+.web3-text h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+.web3-text p{
+  color: hsl(236, 13%, 42%);
+  font-family: "Inter", sans-serif;
+  padding-top: 20px;
+}
+.web3-text .btn{
+  background-color: hsl(5, 85%, 63%);
+  padding: 8px 30px;
+  text-transform: capitalize;
+  color: hsl(36, 100%, 99%);
+  letter-spacing: 4px;
+  border-radius: 0px;
+}
+.web3-text .btn:hover{
+  background-color: black;
+}
+h2{
+  color: hsl(35, 77%, 62%);
+}
+.dropdown-divider {
+  height: 0;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  border-top: 1px solid #e9ecef;
+}
+.row .side-section {
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(233, 8%, 79%);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.side-section  h5 {
+  color: hsl(36, 100%, 99%);
+  font-weight: 700;
+  cursor: pointer;
+}
+.side-section  h5:hover {
+  color: hsl(35, 77%, 62%);
+}
+span{
+  color: hsl(233, 8%, 79%);
+  font-weight: 700;
+  font-size: 32px;
+}
+.row .col-4{
+  margin-top: 15px;
+}
+.row h6{
+  font-weight: 700;
+  font-size: large;
+}
+.row h6:hover{
+  color: hsl(5, 85%, 63%);
+}
+.attribution {
+  text-align: center;
+  margin-bottom: 10px;
+}
+footer .attribution a{
+  text-decoration: none;
+  color: hsl(5, 85%, 63%);
+}
+footer .attribution a:hover{
+  text-decoration:underline ;
+}
